@@ -4,11 +4,11 @@ import React, { Component } from 'react';
 // Components
 import { Consumer } from 'components/HOC/withProfile.js';
 
-// Instruments 
+// Instruments
 import Styles from './styles.m.css';
 
 export default class StatusBar extends Component {
-    render() {       
+    render () {
         return (
             <Consumer>
                 {(context) => (
@@ -21,7 +21,7 @@ export default class StatusBar extends Component {
                         </button>
                     </section>
                 )}
-            </Consumer>           
-        ); 
+            </Consumer>
+        );
     }
 }
